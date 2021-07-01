@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    color: rgb(255, 13, 93);
+  }
+  
+  .fc > * {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+  }
+   and flexbox items */
+  .fc {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+
+  .fc {
+    min-height: 100vh;
+  }
+  
+
+  .fc header,
+  .fc footer {
+    margin: 0px;
+    flex: 0 1 100vw;
+    background-color: #ff0055ee;
+    border-radius: 10px;
+  }
+  header {
+   color: white;
+    text-align: center;
+  }
+  #footer_p {
+    text-align: center;
+  }
+  div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
